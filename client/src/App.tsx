@@ -1,8 +1,14 @@
 import "./App.css";
-import Testing from "./components/Testing";
+import MapContainer from "./components/MapContainer";
+import TopNav from "./components/TopNav";
 
 function App() {
-  return <Testing />;
+  return (
+    <>
+      <TopNav />
+      <MapContainer />
+    </>
+  );
 }
 
 export default App;
